@@ -29,6 +29,7 @@ app.post("/", (req, res) => {
 
   if (text === "") {
     response = "CON Main menu";
+  } else if (text !== "") {
   }
 
   setTimeout(() => {
